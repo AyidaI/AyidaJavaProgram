@@ -93,20 +93,9 @@ public class StringMethods {
         System.out.println("=============");
 
 //find lenght of string
-        System.out.println("12. Split: "+words.length);
-        for(int i=0; i< words.length; i++){
-            System.out.println(words[i]);
+       System.out.println("12. Split: "+words.length);
+      for(int i=0; i< words.length; i++){
+        System.out.println(words[i]);
 
+      }}}
 
-
-
-
-
-        }
-
-
-
-
-
-    }
-}

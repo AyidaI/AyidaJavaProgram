@@ -3,9 +3,9 @@ package com.java.class15;
 
 public class FindEachComponentOfAddress {
     public static void main(String[] args) {
-        String address= "3221 Moanalua Street, Honolulu, Hawaii 96818";
-        String address1= "3221 MoANALUa Street, HoNolulu, HawaII 96818";
-        String address2= "3221 Moanalua Street, Honolulu, Hawaii 96818. My adress.";
+        String address= "B3221, Moanalua Street, Honolulu, Hawaii 96818";
+        String address1= "B3221, MoANALUa Street, HoNolulu, HawaII 96818";
+        String address2= "B322,1 Moanalua Street, Honolulu, Hawaii 96818. My adress.";
 
         System.out.println("1. Equality: "+address.equals(address2));
         System.out.println("=============");
@@ -34,8 +34,10 @@ public class FindEachComponentOfAddress {
 
 //12. Split
         String[] words=address.split(",");
-        System.out.println("12. Split: "+words[0].trim()+","+words[1]);
-        System.out.println(words[2].trim());
+        System.out.println("12. Split: "+words[0]);
+        System.out.println(words[1]);
+        System.out.println(words[2]);
+        System.out.println(words[3]);
 
 
 
